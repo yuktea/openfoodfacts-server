@@ -4,7 +4,7 @@
    "packagings" : [
       {
          "material" : "en:plastic",
-		 "recycling" : "en:plastics-container",
+         "recycling" : "en:recycle-with-plastics",
          "shape" : "en:unknown"
       }
    ]

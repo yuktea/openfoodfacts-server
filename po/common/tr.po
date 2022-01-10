@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Project-Id-Version: openfoodfacts\n"
-"PO-Revision-Date: 2021-11-07 14:53\n"
+"PO-Revision-Date: 2022-01-01 12:03\n"
 "Language-Team: Turkish\n"
 "Last-Translator: \n"
 "POT-Creation-Date: \n"
@@ -1533,10 +1533,6 @@ msgid "The table lists by default nutriments that are often specified. Leave the
 "by typing the first letters of their name in the last row of the table."
 msgstr "Tabloda, sıklıkla belirtilen besin ögeleri varsayılan olarak listelenir. Etikette yoksa, alanı boş bırakın.<br/> Tablonun son satırına adlarının ilk harflerini yazarak ekstra besin ögeleri (vitaminler, mineraller, kolesterol vb.) ekleyebilirsiniz."
 
-msgctxt "nutrition_data_table_sub"
-msgid "-"
-msgstr "-"
-
 msgctxt "nutrition_grades_p"
 msgid "Nutrition grades"
 msgstr "Beslenme dereceleri"
@@ -2610,12 +2606,16 @@ msgid "Warning: the amount of fruits, vegetables and nuts is not specified, thei
 msgstr "Uyarı: Meyve, sebze ve fındık fıstık belirtilmedi. Olası olumlu katkıları hesaba katılmamıştır."
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
-msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d%"
-msgstr "Uyarı: Meyve, sebze ve fındık miktarı etiket üzerinde belirtilmemiş, içerikler listesinden hesaplanmıştır: %d%"
+msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d%"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d%"
 msgstr "Uyarı: Meyve, sebze ve fındık miktarı etiket üzerinde belirtilmemiş, (%s) kategorisinden %d% ürününe göre hesaplanmıştır"
+
+msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
+msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d%"
+msgstr "Uyarı: Meyve, sebze ve fındık miktarı etiket üzerinde belirtilmemiş, içerikler listesinden hesaplanmıştır: %d%"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4555,7 +4555,7 @@ msgstr "NOVA grubu"
 
 msgctxt "error_unknown_org"
 msgid "Unknown organization."
-msgstr ""
+msgstr "Bilinmeyen kuruluş."
 
 msgctxt "error_unknown_user"
 msgid "Unknown user."
@@ -4721,11 +4721,11 @@ msgstr "%s içermez"
 
 msgctxt "owners_p"
 msgid "owners"
-msgstr ""
+msgstr "sahipler"
 
 msgctxt "owners_s"
 msgid "owner"
-msgstr ""
+msgstr "sahip"
 
 msgctxt "org_profile_description"
 msgid "You can provide information about your company that will be displayed in your organization profile."
@@ -4741,7 +4741,7 @@ msgstr "İsim"
 
 msgctxt "org_link"
 msgid "Link to the official web site"
-msgstr ""
+msgstr "Resmi Websitesine bağlantıyı girin"
 
 msgctxt "org_customer_service"
 msgid "Customer service"
@@ -4757,7 +4757,7 @@ msgstr ""
 
 msgctxt "org_commercial_service"
 msgid "Commercial service"
-msgstr ""
+msgstr "Ticari hizmet"
 
 msgctxt "org_commercial_service_description"
 msgid "Commercial service information is only shown in the organization profile."
@@ -4789,19 +4789,19 @@ msgstr "Diğer bilgiler"
 
 msgctxt "contact_info_note"
 msgid "e.g. opening times"
-msgstr ""
+msgstr "örneğin açılış saatleri"
 
 msgctxt "error_org_does_not_exist"
 msgid "The organization was not found."
-msgstr ""
+msgstr "Organizasyon bulunamadı."
 
 msgctxt "error_missing_org_name"
 msgid "The organization name is missing."
-msgstr ""
+msgstr "Organizasyon ismi eksik."
 
 msgctxt "edit_org_title"
 msgid "Organization profile"
-msgstr ""
+msgstr "Organizasyon Profili"
 
 msgctxt "edit_org_result"
 msgid "The organization profile has been updated."
@@ -4817,15 +4817,15 @@ msgstr ""
 
 msgctxt "contact_form"
 msgid "Contact form"
-msgstr ""
+msgstr "İletişim formu"
 
 msgctxt "edit_org_profile"
 msgid "Edit your organization profile"
-msgstr ""
+msgstr "Kuruluş profilinizi düzenleyin"
 
 msgctxt "edit_user_profile"
 msgid "Edit your user profile"
-msgstr ""
+msgstr "Kullanıcı profilinizi düzenleyin"
 
 msgctxt "attribute_group_ingredients_analysis_name"
 msgid "Ingredients"
@@ -4932,11 +4932,11 @@ msgstr ""
 
 msgctxt "see_your_preferences"
 msgid "See your preferences"
-msgstr ""
+msgstr "Tercihlerinizi görün"
 
 msgctxt "delete_all_preferences"
 msgid "Delete all preferences"
-msgstr ""
+msgstr "Tüm tercihleri sil"
 
 msgctxt "products_are_being_loaded_please_wait"
 msgid "Products are being loaded, please wait."
@@ -5433,20 +5433,16 @@ msgctxt "ecoscore_environmental_policy"
 msgid "Environmental policy"
 msgstr ""
 
-msgctxt "ecoscore_transportation"
-msgid "Transportation"
-msgstr ""
-
 msgctxt "ecoscore_threatened_species"
 msgid "Threatened species"
 msgstr ""
 
 msgctxt "ecoscore_ingredients_whose_cultivation_threatens_species"
-msgid "Ingredients whose cultivation threatens species"
+msgid "Ingredients that threatens species"
 msgstr ""
 
 msgctxt "ecoscore_no_species_threatening_ingredients"
-msgid "No ingredient threatening species"
+msgid "No ingredients that threaten species"
 msgstr ""
 
 msgctxt "ecoscore_ingredients_unknown"
@@ -5456,10 +5452,6 @@ msgstr ""
 msgctxt "ecoscore_edit_for_more_precise_ecoscore"
 msgid "For a more precise calculation of the Eco-Score, you can edit the product page and add them."
 msgstr ""
-
-msgctxt "ecoscore_packaging"
-msgid "Packaging"
-msgstr "Ambalaj"
 
 msgctxt "ecoscore_packaging_ratio"
 msgid "ratio"
@@ -5603,12 +5595,14 @@ msgctxt "donation_title"
 msgid "Important: we need your support!"
 msgstr ""
 
-msgctxt "donation_body"
-msgid "Open Food Facts is a collaborative project built by tens of thousands of volunteers and managed by a non-profit organization with 3 employees."
+# variable names between { } must not be translated, {number_of_employees} will be a number
+msgctxt "donation_body_employees"
+msgid "Open Food Facts is a collaborative project built by tens of thousands of volunteers and managed by a non-profit organization with {number_of_employees} employees."
 msgstr ""
 
-msgctxt "donation_why"
-msgid "We need your donations to fund the Open Food Facts 2021 budget and to continue to develop the project. <strong>Thank you! ❤️</strong>"
+# variable names between { } must not be translated, {year} will be the upcoming year
+msgctxt "donation_why_year"
+msgid "We need your donations to fund the Open Food Facts {year} budget and to continue to develop the project."
 msgstr ""
 
 msgctxt "donation_cta"
@@ -5728,5 +5722,61 @@ msgstr ""
 
 msgctxt "ecoscore_downgraded_non_recyclable_and_non_biodegradable_materials"
 msgid "The score of products with non-recyclable and non-biodegradable packaging materials is capped at 79 (grade B)."
+msgstr ""
+
+msgctxt "nutriscore_not_applicable"
+msgid "Nutri-Score not applicable for this product category."
+msgstr ""
+
+msgctxt "nutriscore_missing_category"
+msgid "The category of the product must be specified in order to compute the Nutri-Score."
+msgstr ""
+
+msgctxt "nutriscore_missing_nutrition_data"
+msgid "The nutrition facts of the product must be specified in order to compute the Nutri-Score."
+msgstr ""
+
+msgctxt "health"
+msgid "Health"
+msgstr ""
+
+# will be followed by : and a value. e.g. "Compared to: bananas"
+msgctxt "compared_to"
+msgid "Compared to"
+msgstr ""
+
+# name of an activity / a sport
+msgctxt "activity_walking"
+msgid "Walking"
+msgstr ""
+
+# name of an activity / a sport
+msgctxt "activity_swimming"
+msgid "Swimming"
+msgstr ""
+
+# name of an activity / a sport
+msgctxt "activity_bicycling"
+msgid "Bicycling"
+msgstr ""
+
+# name of an activity / a sport
+msgctxt "activity_running"
+msgid "Running"
+msgstr ""
+
+# Don't translate {kj}, it will be replaced by a number
+msgctxt "f_energy_per_100g"
+msgid "{kj} kJ per 100g"
+msgstr ""
+
+# Don't translate {kj}, it will be replaced by a number
+msgctxt "f_equal_to_walking_minutes_or_steps"
+msgid "Equal to walking {minutes} minutes or {steps} steps"
+msgstr ""
+
+# Don't translate {kg} and {lb}, it will be replaced by a number
+msgctxt "f_energy_expenditure_for_weight_in_kg_lb"
+msgid "Energy expenditure for a person weighting {kg} kg / {lb} lb"
 msgstr ""
 
