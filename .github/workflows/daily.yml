@@ -49,8 +49,11 @@ jobs:
         script_stop: false
         script: |
           cd ${{ matrix.env }}
-          make import_prod_data
-          make restart_db
+          if [[ ! -e ./NO_DAILY ]]
+          then
+            make import_prod_data
+            make restart_db
+          fi
 
   refresh-products-tags:
     runs-on: ubuntu-latest
@@ -75,5 +78,8 @@ jobs:
         script_stop: false
         script: |
           cd ${{ matrix.env }}
-          make refresh_product_tags
-          make restart_db
+          if [[ ! -e ./NO_DAILY ]]
+          then
+            make refresh_product_tags
+            make restart_db
+          fi
