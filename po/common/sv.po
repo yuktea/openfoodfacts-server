@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
 "Project-Id-Version: openfoodfacts\n"
-"PO-Revision-Date: 2022-04-15 12:34\n"
+"PO-Revision-Date: 2022-04-20 02:53\n"
 "Language-Team: Swedish\n"
 "Last-Translator: \n"
 "POT-Creation-Date: \n"
@@ -122,9 +122,9 @@ msgctxt "enter_name_of_org"
 msgid "Please enter the name of your organization (company name or brand)."
 msgstr "Ange namnet på din organisation (företagsnamn eller varumärke)."
 
-msgctxt "this_is_a_pro_account_for_org"
-msgid "This account is a professional account associated with the producer or brand %s. You have access to the Platform for Producers."
-msgstr "Detta konto är ett professionellt konto som är associerat med tillverkaren eller varumärket %s. Du har tillgång till plattformen för producenter."
+msgctxt "f_this_is_a_pro_account_for_org"
+msgid "This account is a professional account associated with the producer or brand {org}. You have access to the Platform for Producers."
+msgstr ""
 
 msgctxt "add_user_email_body"
 msgid "Hello <NAME>,\n\n"
@@ -1092,7 +1092,7 @@ msgstr "ingrediens som kan vara från palmolja"
 
 msgctxt "ingredients_without_products"
 msgid "Products that do not contain the ingredient %s"
-msgstr "Produkter som inte innehåller ingrediensen %s"
+msgstr "Produkter som ej innehåller ingrediensen %s"
 
 # Please change appstore_US.svg to appstore_XX.svg. check the url https://static.openfoodfacts.org/images/misc/appstore/black/appstore_XX.svg
 msgctxt "ios_app_icon_url"
@@ -2911,7 +2911,7 @@ msgstr ""
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
 msgid "Groups with more than 50% of members exceeding the acceptable daily intake (ADI)"
-msgstr ""
+msgstr "Grupper där fler än 50% av medlemmar överskrider acceptabelt dagligt intag (ADI)"
 
 msgctxt "additives_efsa_evaluation_exposure_95th_greater_than_adi"
 msgid "Groups with more than 5% of members exceeding the acceptable daily intake (ADI)"
@@ -3519,7 +3519,7 @@ msgstr "Plattform för producenter"
 # "product data and photos" in this sentence means data and photos for many products, not just one product
 msgctxt "producers_platform_description"
 msgid "The platform for producers allows manufacturers to easily manage their product photos and data on Open Food Facts."
-msgstr ""
+msgstr "Plattformen för producenter gör det möjligt för tillverkare att enkelt hantera sina produktfoton och data på Open Food Facts."
 
 # "product data and photos" in this sentence means data and photos for many products, not just one product
 msgctxt "producers_platform_private_database"
@@ -4259,7 +4259,7 @@ msgstr ""
 
 msgctxt "ciqual_food_name_p"
 msgid "CIQUAL food names"
-msgstr ""
+msgstr "CIQUAL livsmedelsnamn"
 
 msgctxt "we_need_your_help"
 msgid "We need your help!"
@@ -5014,7 +5014,7 @@ msgstr ""
 
 msgctxt "deforestation_risk"
 msgid "Deforestation risk"
-msgstr ""
+msgstr "Risk för avskogning"
 
 msgctxt "total_forest_footprint"
 msgid "Total forest footprint"
@@ -5364,7 +5364,7 @@ msgstr ""
 
 msgctxt "ecoscore_panel_lca"
 msgid "Lifecyle Analysis (LCA)"
-msgstr ""
+msgstr "Livscykel Analys (LCA)"
 
 # do not translate Agribalyse
 msgctxt "ecoscore_agribalyse_category"
@@ -5721,7 +5721,7 @@ msgstr ""
 
 msgctxt "bonus"
 msgid "Bonus"
-msgstr ""
+msgstr "Bonus"
 
 msgctxt "malus"
 msgid "Malus"
